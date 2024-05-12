@@ -1,0 +1,134 @@
+body {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}
+.colorContainer {
+  border: 1px solid black;
+  padding: 10px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.fontContainer {
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+}
+.textContainer {
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 10px;
+}
+.colorBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fontBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.colorBox > div {
+  margin: 10px;
+  padding: 40px 80px;
+  text-align: center;
+}
+.fontContainer > h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+.textContainer > h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+#SCP > h4 {
+  text-decoration: underline;
+  font-family: "Source Code Pro", monospace;
+}
+#P > h4 {
+  text-decoration: underline;
+  font-family: "Poppins", sans-serif;
+}
+#NS > h4 {
+  text-decoration: underline;
+  font-family: "Nunito Sans", sans-serif;
+}
+#H > h1 {
+  font-weight: 700;
+  font-size: 26px;
+  font-family: "Nunito Sans", sans-serif;
+}
+#HH > h2 {
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+#para > p {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+#SCP-style1 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 12px;
+}
+#SCP-style2 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 300;
+  font-size: 12px;
+}
+#SCP-style3 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  font-size: 12px;
+}
+#P-style1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+#P-style2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+#P-style3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+#NS-style1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+}
+#NS-style2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+#NS-style3 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+#coolBlue {
+  background-color: #2d5dcc;
+}
+#pink {
+  background-color: #d957d9;
+}
+#mintGreen {
+  background-color: #4fe0b0;
+}
+#beige {
+  background-color: #efd9ca;
+}
+#red {
+  background-color: #ff0000;
+}
+#gold {
+  background-color: #ffd700;
+}
